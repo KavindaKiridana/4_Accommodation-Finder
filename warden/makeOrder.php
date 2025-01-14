@@ -2,7 +2,7 @@
 <?php
 require '../config.php';
 $hasError = true;
-include ('header.php');
+include ('../header.php');
 
 
 
