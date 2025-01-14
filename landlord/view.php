@@ -80,7 +80,7 @@ if (isset($_SESSION['user_id'])) {
                             <?php } ?>
                         </td>
                         <td>
-                            <form action="delete1.php?id=<?php echo $row1['accommodation_id']; ?>" method="post">
+                            <form action="delete.php?id=<?php echo $row1['accommodation_id']; ?>" method="post">
                                 <input type="submit" class="btn btn-danger" name="submit" value="Delete Record"
                                     onclick="return confirmChoice();">
                             </form>
