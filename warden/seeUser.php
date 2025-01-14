@@ -1,6 +1,6 @@
 <?php 
-include('header.php');
-require 'config.php';
+include('../header.php');
+require '../config.php';
 
 // Check if user is logged in
 if (!isset($_SESSION['user_id'])) {
