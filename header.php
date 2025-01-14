@@ -108,7 +108,7 @@ if (isset($_SESSION['user_type']) && !empty($_SESSION['user_type'])) {
                             <a class="nav-link" href="../admin/manage.php">Manage Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="seeUser.php">See Users</a>
+                            <a class="nav-link" href="../admin/seeUser.php">See Users</a>
                         </li>
                     </ul>
                             <?php
@@ -138,7 +138,7 @@ if (isset($_SESSION['user_type']) && !empty($_SESSION['user_type'])) {
                             <a class="nav-link" href="../warden/manage.php">Manage Account</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="seeUser.php">See Users</a>
+                            <a class="nav-link" href="../warden/seeUser.php">See Users</a>
                         </li>
                     </ul>
                             <?php
