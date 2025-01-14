@@ -93,4 +93,4 @@ if (!isset($_SESSION['user_id'])) {
     }
 </style>
 
-<?php include('footer.php'); ?>
+<?php include('../footer.php'); ?>
