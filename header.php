@@ -107,6 +107,9 @@ if (isset($_SESSION['user_type']) && !empty($_SESSION['user_type'])) {
                         <li class="nav-item">
                             <a class="nav-link" href="../admin/manage.php">Manage Account</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="seeUser.php">See Users</a>
+                        </li>
                     </ul>
                             <?php
                             break;
@@ -133,6 +136,9 @@ if (isset($_SESSION['user_type']) && !empty($_SESSION['user_type'])) {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../warden/manage.php">Manage Account</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="seeUser.php">See Users</a>
                         </li>
                     </ul>
                             <?php
