@@ -21,14 +21,12 @@ if (!isset($_SESSION['user_id'])) {
                             <th>Username</th>
                             <th>Email</th>
                             <th>Role</th>
-                            <th>Join Date</th>
-                            <th>Status</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         // Fetch all users from the database
-                        $query = "SELECT * FROM user ORDER BY created_at DESC";
+                        $query = "SELECT * FROM user ORDER BY user_id DESC";
                         $result = mysqli_query($conn, $query);
                         
                         if (mysqli_num_rows($result) > 0) {
@@ -36,7 +34,7 @@ if (!isset($_SESSION['user_id'])) {
                             while ($row = mysqli_fetch_assoc($result)) {
                                 // Determine the badge color based on user role
                                 $roleBadgeColor = '';
-                                switch(strtolower($row['role'])) {
+                                switch(strtolower($row['utype'])) {
                                     case 'admin':
                                         $roleBadgeColor = 'bg-danger';
                                         break;
@@ -49,7 +47,7 @@ if (!isset($_SESSION['user_id'])) {
                                 }
 
                                 // Determine status badge color
-                                $statusBadgeColor = $row['status'] == 'active' ? 'bg-success' : 'bg-secondary';
+                               // $statusBadgeColor = $row['status'] == 'active' ? 'bg-success' : 'bg-secondary';
                         ?>
                                 <tr>
                                     <td><?php echo $counter++; ?></td>
@@ -57,20 +55,10 @@ if (!isset($_SESSION['user_id'])) {
                                     <td><?php echo htmlspecialchars($row['email']); ?></td>
                                     <td>
                                         <span class="badge <?php echo $roleBadgeColor; ?>">
-                                            <?php echo ucfirst(htmlspecialchars($row['role'])); ?>
+                                            <?php echo ucfirst(htmlspecialchars($row['utype'])); ?>
                                         </span>
                                     </td>
-                                    <td>
-                                        <?php 
-                                        $date = new DateTime($row['created_at']);
-                                        echo $date->format('M d, Y'); 
-                                        ?>
-                                    </td>
-                                    <td>
-                                        <span class="badge <?php echo $statusBadgeColor; ?>">
-                                            <?php echo ucfirst(htmlspecialchars($row['status'])); ?>
-                                        </span>
-                                    </td>
+                                   
                                 </tr>
                         <?php
                             }
