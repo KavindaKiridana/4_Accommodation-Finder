@@ -48,7 +48,7 @@
 </head>
 
 <body>
-    <?php include ('header.php'); ?>
+    <?php include ('../header.php'); ?>
 
     <div class="container">
         <h3>Add your location by double-clicking on the map</h3>
@@ -64,7 +64,7 @@
         <button class="btn" onclick="redirectToMap()">Cancel</button>
     </div>
 
-    <?php include ('footer.php'); ?>
+    <?php include ('../footer.php'); ?>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script>
