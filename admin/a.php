@@ -28,7 +28,7 @@ if (!isset($_SESSION['user_id'])) {
                     <tbody>
                         <?php
                         // Fetch all users from the database
-                        $query = "SELECT * FROM users ORDER BY created_at DESC";
+                        $query = "SELECT * FROM user ORDER BY created_at DESC";
                         $result = mysqli_query($conn, $query);
                         
                         if (mysqli_num_rows($result) > 0) {
