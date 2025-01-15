@@ -85,7 +85,28 @@ For any queries or issues, contact the project maintainer:
 
 Thank you for using the Accommodation Finder Website!
 
+
+
+
 ### 🚀 How to analysis PHP project using PHP_CodeSniffer
 
 - _phpcs_ Search for bugs
 - _phpcbf_ Search for bugs and fix them automatically
+
+  **📂 Step by step guide to do it**
+  1. First, you need to install PHP & Composer and then add them to the system environment variables.
+  2. Install PHP CodeSniffer
+     - copied and pasted this command given below on the terminal:
+      ```
+     composer global require "squizlabs/php_codesniffer=*"
+     //After installation, ensure the phpcs command is available globally. You can check it by running:
+     phpcs --version
+      ```
+  3. Analyze your PHP code by running the following commands given below in your project's root path's terminal.
+      ```
+     phpcs --standard=PSR12 .
+      //--standard=PSR12: Specifies the PSR-12 coding standard.
+     '.' Analyzes all files in the current directory.
+      phpcbf --standard=PSR12 .
+      //Automatically Fix Issues (Optional)
+      ```
