@@ -1,0 +1,579 @@
+PS C:\xampp\htdocs\Accommodation Finder> phpcs --standard=PSR12 .
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\addUser.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found     
+    |       |     "\r\n"
+  3 | ERROR | [x] Space before opening parenthesis of function call prohibited  
+ 69 | ERROR | [x] Space before opening parenthesis of function call prohibited  
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\addUserX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line      
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found   
+    |         |     "\r\n"
+ 31 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\home.php
+------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+------------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank line
+ 1 | ERROR | [x] Opening PHP tag must be on a line by itself
+ 1 | ERROR | [x] Expected 1 newline at end of file; 0 found
+------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\manage.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 4 WARNINGS AFFECTING 6 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+  2 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 27 | WARNING | [ ] Line exceeds 120 characters; contains 148 characters
+ 31 | WARNING | [ ] Line exceeds 120 characters; contains 150 characters
+ 35 | WARNING | [ ] Line exceeds 120 characters; contains 148 characters
+ 53 | WARNING | [ ] Line exceeds 120 characters; contains 132 characters
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\manageX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 29 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters
+ 54 | WARNING | [x] Usage of ELSE IF is discouraged; use ELSEIF instead
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\seeUser.php
+--------------------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 7 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  1 | ERROR | [x] Whitespace found at end of line
+ 31 | ERROR | [x] Whitespace found at end of line
+ 37 | ERROR | [x] Expected 1 space after SWITCH keyword; 0 found
+ 51 | ERROR | [x] Line indented incorrectly; expected 32 spaces, found 24
+ 63 | ERROR | [x] Line indented incorrectly; expected at least 32 spaces, found
+    |       |     24
+ 66 | ERROR | [x] Line indented incorrectly; expected 28 spaces, found 24
+ 70 | ERROR | [x] Line indented incorrectly; expected at least 28 spaces, found
+    |       |     24
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\config.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank line
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+   |       |     "\r\n"
+ 8 | ERROR | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\footer.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 1 | WARNING | No PHP code was found in this file and short open tags are not
+   |         | allowed by this install of PHP. This file may be using short
+   |         | open tags but PHP does not allow them.
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\header.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+   |       |     "\r\n"
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\index.php
+--------------------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+   1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+     |         |     "\r\n"
+ 106 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters
+ 110 | WARNING | [ ] Line exceeds 120 characters; contains 149 characters
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\addPhoto.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 47 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\addPhotoX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 52 | ERROR | [x] Blank line found at end of control structure
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\addPlace.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 49 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\addPlaceX.php
+--------------------------------------------------------------------------------
+FOUND 8 ERRORS AND 1 WARNING AFFECTING 6 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+  6 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 14 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 23 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 23 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 23 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 29 | WARNING | [ ] Line exceeds 120 characters; contains 142 characters
+ 43 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\delete.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 20 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters
+ 56 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+ 56 | ERROR   | [x] A closing tag is not permitted at the end of a PHP file
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\home.php
+------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 1 LINE
+------------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank line
+ 1 | ERROR | [x] Opening PHP tag must be on a line by itself
+ 1 | ERROR | [x] Expected 1 newline at end of file; 0 found
+------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\manage.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 67 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\manageX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 29 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters
+ 54 | WARNING | [x] Usage of ELSE IF is discouraged; use ELSEIF instead
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\map.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 51 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 67 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\orderLink.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 13 | ERROR | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\orders.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+   1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+     |       |     "\r\n"
+   3 | ERROR | [x] Whitespace found at end of line
+   5 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 143 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\process.php
+--------------------------------------------------------------------------------
+FOUND 5 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 11 | ERROR | [x] Blank line found at end of control structure
+ 25 | ERROR | [x] Blank line found at end of control structure
+ 36 | ERROR | [x] Expected 1 blank line at end of file; 2 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 5 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\view.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+   1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+     |         |     "\r\n"
+   2 | ERROR   | [x] Space before opening parenthesis of function call
+     |         |     prohibited
+  76 | WARNING | [ ] Line exceeds 120 characters; contains 121 characters
+ 113 | ERROR   | [x] Space before opening parenthesis of function call
+     |         |     prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\login.php
+--------------------------------------------------------------------------------
+FOUND 7 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  7 | ERROR | [x] Line indented incorrectly; expected at least 4 spaces, found
+    |       |     0
+ 31 | ERROR | [x] Expected at least 1 space before "="; 0 found
+ 31 | ERROR | [x] Expected at least 1 space after "="; 0 found
+ 54 | ERROR | [x] Expected 1 blank line at end of file; 2 found
+ 54 | ERROR | [x] Whitespace found at end of line
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 7 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\logout.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+ 1 | ERROR | [x] Header blocks must be separated by a single blank line
+ 1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+   |       |     "\r\n"
+ 5 | ERROR | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\fetch_locations.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+  2 | ERROR   | [x] Whitespace found at end of line
+ 10 | WARNING | [ ] Line exceeds 120 characters; contains 136 characters
+ 25 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\home.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 71 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 72 | ERROR | [x] Line indented incorrectly; expected 0 spaces, found 1
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\makeOrder.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+  5 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+ 75 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters
+ 94 | ERROR   | [x] Space before opening parenthesis of function call
+    |         |     prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\manage.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 67 | ERROR | [x] Space before opening parenthesis of function call prohibited
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\manageX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 29 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters
+ 54 | WARNING | [x] Usage of ELSE IF is discouraged; use ELSEIF instead
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\reserve.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 24 | WARNING | [ ] Line exceeds 120 characters; contains 132 characters
+ 31 | ERROR   | [x] Expected 1 blank line at end of file; 2 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\addUser.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 68 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 69 | ERROR | [x] Line indented incorrectly; expected 0 spaces, found 1
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\addUserX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 1 WARNING AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 31 | WARNING | [ ] Line exceeds 120 characters; contains 130 characters
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 2 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\fetch_locations.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+  2 | ERROR   | [x] Whitespace found at end of line
+ 10 | WARNING | [ ] Line exceeds 120 characters; contains 157 characters
+ 25 | ERROR   | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\home.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 71 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 72 | ERROR | [x] Line indented incorrectly; expected 0 spaces, found 1
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\makeOrder.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AND 1 WARNING AFFECTING 5 LINES
+--------------------------------------------------------------------------------
+   1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+     |         |     "\r\n"
+   5 | ERROR   | [x] Space before opening parenthesis of function call
+     |         |     prohibited
+  80 | WARNING | [ ] Line exceeds 120 characters; contains 125 characters
+ 100 | ERROR   | [x] Space before opening parenthesis of function call
+     |         |     prohibited
+ 101 | ERROR   | [x] Line indented incorrectly; expected 0 spaces, found 1
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\manage.php
+--------------------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  2 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 72 | ERROR | [x] Space before opening parenthesis of function call prohibited
+ 73 | ERROR | [x] Line indented incorrectly; expected 0 spaces, found 1
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 4 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\manageX.php
+--------------------------------------------------------------------------------
+FOUND 2 ERRORS AND 2 WARNINGS AFFECTING 3 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR   | [x] Header blocks must be separated by a single blank line
+  1 | ERROR   | [x] End of line character is invalid; expected "\n" but found
+    |         |     "\r\n"
+ 29 | WARNING | [ ] Line exceeds 120 characters; contains 133 characters
+ 54 | WARNING | [x] Usage of ELSE IF is discouraged; use ELSEIF instead
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\reserve.php
+--------------------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 2 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] Header blocks must be separated by a single blank line
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+ 26 | ERROR | [x] Expected 1 newline at end of file; 0 found
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 3 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\seeUser.php
+--------------------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 7 LINES
+--------------------------------------------------------------------------------
+  1 | ERROR | [x] End of line character is invalid; expected "\n" but found
+    |       |     "\r\n"
+  1 | ERROR | [x] Whitespace found at end of line
+ 31 | ERROR | [x] Whitespace found at end of line
+ 37 | ERROR | [x] Expected 1 space after SWITCH keyword; 0 found
+ 51 | ERROR | [x] Line indented incorrectly; expected 32 spaces, found 24
+ 63 | ERROR | [x] Line indented incorrectly; expected at least 32 spaces, found
+    |       |     24
+ 66 | ERROR | [x] Line indented incorrectly; expected 28 spaces, found 24
+ 70 | ERROR | [x] Line indented incorrectly; expected at least 28 spaces, found
+    |       |     24
+--------------------------------------------------------------------------------
+PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+--------------------------------------------------------------------------------
+
+Time: 7.32 secs; Memory: 6MB
+
+PS C:\xampp\htdocs\Accommodation Finder> 
