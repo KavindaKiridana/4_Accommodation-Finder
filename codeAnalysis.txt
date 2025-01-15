@@ -627,3 +627,111 @@ A TOTAL OF 140 ERRORS WERE FIXED IN 39 FILES
 --------------------------------------------------------------------------------
 
 Time: 2.51 secs; Memory: 8MB
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+PS C:\xampp\htdocs\Accommodation Finder> phpcs --standard=PSR12 .
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\addUserX.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | WARNING | Line exceeds 120 characters; contains 130 characters  
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\admin\manage.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 4 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 28 | WARNING | Line exceeds 120 characters; contains 148 characters  
+ 32 | WARNING | Line exceeds 120 characters; contains 150 characters
+ 36 | WARNING | Line exceeds 120 characters; contains 148 characters
+ 54 | WARNING | Line exceeds 120 characters; contains 132 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\footer.php
+--------------------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+--------------------------------------------------------------------------------
+ 1 | WARNING | No PHP code was found in this file and short open tags are not
+   |         | allowed by this install of PHP. This file may be using short
+   |         | open tags but PHP does not allow them.
+--------------------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\index.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+ 106 | WARNING | Line exceeds 120 characters; contains 136 characters
+ 110 | WARNING | Line exceeds 120 characters; contains 149 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\addPlaceX.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 26 | WARNING | Line exceeds 120 characters; contains 142 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\delete.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 18 | WARNING | Line exceeds 120 characters; contains 125 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\landlord\view.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 76 | WARNING | Line exceeds 120 characters; contains 121 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\login.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 4 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 32 | WARNING | Line exceeds 120 characters; contains 1147 characters
+ 36 | WARNING | Line exceeds 120 characters; contains 1149 characters
+ 40 | WARNING | Line exceeds 120 characters; contains 1148 characters
+ 44 | WARNING | Line exceeds 120 characters; contains 1150 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\makeOrder.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 75 | WARNING | Line exceeds 120 characters; contains 125 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\student\reserve.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 23 | WARNING | Line exceeds 120 characters; contains 132 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\addUserX.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 30 | WARNING | Line exceeds 120 characters; contains 130 characters
+----------------------------------------------------------------------
+
+
+FILE: C:\xampp\htdocs\Accommodation Finder\warden\makeOrder.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 80 | WARNING | Line exceeds 120 characters; contains 125 characters
+----------------------------------------------------------------------
+
+Time: 584ms; Memory: 6MB
