@@ -27,7 +27,9 @@ if (mysqli_num_rows($result) > 0) {
 //now user will be registered
 if ($verified) {
     $password = password_hash($password, PASSWORD_BCRYPT);
-    $sql = "insert into User (username, email, password,phone,utype) values ('$name', '$email', '$password', '$phone', '$utype')";
+    $sql = "INSERT INTO User (username, email, password, phone, utype) 
+        VALUES ('$name', '$email', '$password', '$phone', '$utype')";
+
     try {
         $result = mysqli_query($conn, $sql);
         if ($result) {
