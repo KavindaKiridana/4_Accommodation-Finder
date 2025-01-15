@@ -69,7 +69,7 @@ This project is an Accommodation Finder Website developed as part of a universit
 5. User Role Testing
    - Use the provided database data or create test users with specific roles (admin, student, etc.) to verify functionality.
 
-**🚀 Usage Instructions**
+** Usage Instructions**
 
 - Students: Sign up and log in to search for accommodations.
 - Admins: Log in to manage users and oversee operations.
@@ -87,5 +87,5 @@ Thank you for using the Accommodation Finder Website!
 
 ### 🚀 How to analysis PHP project using PHP_CodeSniffer
 
-- **phpcs** Search for bugs
-- **phpcbf** Search for bugs and fix them automatically
+- _phpcs_ Search for bugs
+- _phpcbf_ Search for bugs and fix them automatically
