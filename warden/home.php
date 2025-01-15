@@ -1,5 +1,5 @@
 <!--header-->
-<?php include ('../header.php');
+<?php include('../header.php');
 $msg = [];
 ?>
 <!DOCTYPE html>
@@ -68,5 +68,5 @@ $msg = [];
 </html>
 <!--footer-->
 <?php
-include ('../footer.php');
- ?>
+include('../footer.php');
+?>

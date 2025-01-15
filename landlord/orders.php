@@ -1,8 +1,8 @@
 <!--header-->
 
-<?php 
+<?php
 require '../config.php';
-include ('../header.php');
+include('../header.php');
 
 
 
@@ -140,5 +140,5 @@ if (isset($_SESSION['user_id']) && !empty($_SESSION['user_id'])) {
 </div>
 <!--your main content end-->
 <!--footer--><?php
-include ('../footer.php');
+include('../footer.php');
 ?>

@@ -2,7 +2,7 @@
 <?php
 require '../config.php';
 $hasError = true;
-include ('header.php');
+include('header.php');
 
 
 
@@ -91,5 +91,5 @@ if ($hasError) {
 
 
 <!--footer--><?php
-include ('../footer.php');
+include('../footer.php');
 ?>

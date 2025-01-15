@@ -1,5 +1,5 @@
 <?php
-include ('../header.php');
+include('../header.php');
 
 if (isset($_SESSION['user_id'])) {
     $user_id = $_SESSION['user_id'];
@@ -46,5 +46,5 @@ if (isset($_SESSION['user_id'])) {
 
 <!--your main content end-->
 <!--footer--><?php
-include ('../footer.php');
+include('../footer.php');
 ?>

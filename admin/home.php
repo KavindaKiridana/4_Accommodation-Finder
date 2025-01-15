@@ -1,1 +1,3 @@
-<?php header("location:addUser.php");
+<?php
+
+header("location:addUser.php");

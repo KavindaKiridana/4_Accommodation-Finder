@@ -1,5 +1,6 @@
 <?php
-include ('../header.php');
+
+include('../header.php');
 require '../config.php';
 ?>
 <!-- <!DOCTYPE html>

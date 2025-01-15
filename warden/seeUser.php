@@ -1,4 +1,4 @@
-<?php 
+<?php
 include('../header.php');
 require '../config.php';
 
@@ -28,13 +28,13 @@ if (!isset($_SESSION['user_id'])) {
                         // Fetch all users from the database
                         $query = "SELECT * FROM user ORDER BY user_id DESC";
                         $result = mysqli_query($conn, $query);
-                        
+
                         if (mysqli_num_rows($result) > 0) {
                             $counter = 1;
                             while ($row = mysqli_fetch_assoc($result)) {
                                 // Determine the badge color based on user role
                                 $roleBadgeColor = '';
-                                switch(strtolower($row['utype'])) {
+                                switch (strtolower($row['utype'])) {
                                     case 'admin':
                                         $roleBadgeColor = 'bg-danger';
                                         break;
@@ -48,7 +48,7 @@ if (!isset($_SESSION['user_id'])) {
 
                                 // Determine status badge color
                                // $statusBadgeColor = $row['status'] == 'active' ? 'bg-success' : 'bg-secondary';
-                        ?>
+                                ?>
                                 <tr>
                                     <td><?php echo $counter++; ?></td>
                                     <td><?php echo htmlspecialchars($row['username']); ?></td>
@@ -60,14 +60,14 @@ if (!isset($_SESSION['user_id'])) {
                                     </td>
                                    
                                 </tr>
-                        <?php
+                                <?php
                             }
                         } else {
-                        ?>
+                            ?>
                             <tr>
                                 <td colspan="6" class="text-center">No users found</td>
                             </tr>
-                        <?php
+                            <?php
                         }
                         ?>
                     </tbody>

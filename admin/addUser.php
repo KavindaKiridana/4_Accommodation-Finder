@@ -1,6 +1,6 @@
 <!--header-->
 <?php require '../config.php';
-include ('../header.php');
+include('../header.php');
 
 $msg = [];
 ?>
@@ -66,5 +66,5 @@ $msg = [];
 </div>
 <!--your main content end-->
 <!--footer--><?php
-include ('../footer.php');
+include('../footer.php');
 ?>

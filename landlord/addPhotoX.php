@@ -49,7 +49,6 @@ if (isset($_POST['submit'])) {
                 echo " <script>alert('An error occured,Please try again');</script> ";
                 echo " <script>window.location.href = 'addPhoto.php';</script> ";
             }
-
         }
     }
 }

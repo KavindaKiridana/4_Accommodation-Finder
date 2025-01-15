@@ -1,4 +1,5 @@
 <?php
+
 session_destroy();
 $msg = "logged out";
 $msg = urlencode($msg);

@@ -1,5 +1,5 @@
 <?php
-include ('../header.php');
+include('../header.php');
 
 //find the accommodation id
 
@@ -44,5 +44,5 @@ include ('../header.php');
 
 <!--your main content end-->
 <!--footer--><?php
-include ('../footer.php');
+include('../footer.php');
 ?>

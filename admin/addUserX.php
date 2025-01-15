@@ -1,15 +1,14 @@
 <?php
+
 require '../config.php';
 $msg = [];
 $verified = true;
-
 $name = mysqli_real_escape_string($conn, $_POST['name']);
 $email = mysqli_real_escape_string($conn, $_POST['email']);
 $password = mysqli_real_escape_string($conn, $_POST['password']);
 $password2 = mysqli_real_escape_string($conn, $_POST['password2']);
 $utype = mysqli_real_escape_string($conn, $_POST['utype']);
 $phone = mysqli_real_escape_string($conn, $_POST['phone']);
-
 //varification parts
 
 if ($password !== $password2) {
@@ -38,7 +37,8 @@ if ($verified) {
             $msg[] = "failed to register";
             echo "<script>alert('";
             foreach ($msg as $x) {
-                echo addslashes($x) . "\\n"; // Escape special characters and add new line
+                echo addslashes($x) . "\\n";
+            // Escape special characters and add new line
             }
             echo "');</script>";
             echo " <script>window.location.href = 'addUser.php';</script> ";

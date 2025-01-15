@@ -1,9 +1,9 @@
 <?php
+
 require '../config.php';
 session_start();
 $msg = [];
 $hasError = true;
-
 if (isset($_SESSION['email'])) {
     $email = $_SESSION['email'];
 } else {
@@ -18,23 +18,27 @@ if (isset($_SESSION['user_id'])) {
 if ($hasError) {
     if (isset($_POST['submit'])) {
         if (isset($_POST['action']) && $_POST['action'] === 'change_password') {
-            // Process password change form data
+        // Process password change form data
 
             $oldPassword = $_POST['password'];
-            $oldPasswordHash = password_hash($oldPassword, PASSWORD_BCRYPT); // Hash the old password
+            $oldPasswordHash = password_hash($oldPassword, PASSWORD_BCRYPT);
+        // Hash the old password
             $sql = "SELECT password FROM User WHERE email = '$email' ";
             $result = mysqli_query($conn, $sql);
             $verify = false;
             while ($row = mysqli_fetch_assoc($result)) {
-                $verify = password_verify($oldPassword, $row['password']); // Compare hashed old password with stored hashed password
+                $verify = password_verify($oldPassword, $row['password']);
+                // Compare hashed old password with stored hashed password
                 if ($verify) {
-                    break; // Break the loop once the password is verified
+                    break;
+// Break the loop once the password is verified
                 }
             }
 
             if ($verify) {
                 $newPassword = $_POST['password2'];
-                $newPasswordHash = password_hash($newPassword, PASSWORD_BCRYPT); // Hash the new password
+                $newPasswordHash = password_hash($newPassword, PASSWORD_BCRYPT);
+    // Hash the new password
                 $sql = "UPDATE user SET password='$newPasswordHash' WHERE user_id='$id'";
                 try {
                     $result = mysqli_query($conn, $sql);
@@ -51,8 +55,8 @@ if ($hasError) {
                 echo " <script>alert('wrong password.Please try again');</script> ";
                 echo "<script>window.location.href = 'manage.php';</script>";
             }
-        } else if (isset($_POST['action']) && $_POST['action'] === 'change_username') {
-            // Process username change form data
+        } elseif (isset($_POST['action']) && $_POST['action'] === 'change_username') {
+        // Process username change form data
             $newName = $_POST['name'];
             $sql = "update user set username='$newName' where user_id='$id'";
             try {

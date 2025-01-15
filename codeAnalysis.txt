@@ -576,4 +576,54 @@ PHPCBF CAN FIX THE 8 MARKED SNIFF VIOLATIONS AUTOMATICALLY
 
 Time: 7.32 secs; Memory: 6MB
 
-PS C:\xampp\htdocs\Accommodation Finder> 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+PS C:\xampp\htdocs\Accommodation Finder> phpcbf --standard=PSR12 .
+
+PHPCBF RESULT SUMMARY
+--------------------------------------------------------------------------------
+FILE                                                            FIXED  REMAINING
+--------------------------------------------------------------------------------
+C:\xampp\htdocs\Accommodation Finder\admin\addUser.php          3      0
+C:\xampp\htdocs\Accommodation Finder\admin\addUserX.php         2      1
+C:\xampp\htdocs\Accommodation Finder\admin\home.php             3      0
+C:\xampp\htdocs\Accommodation Finder\admin\manage.php           3      4
+C:\xampp\htdocs\Accommodation Finder\admin\manageX.php          3      0
+C:\xampp\htdocs\Accommodation Finder\admin\seeUser.php          8      0
+C:\xampp\htdocs\Accommodation Finder\config.php                 3      0
+C:\xampp\htdocs\Accommodation Finder\header.php                 1      0
+C:\xampp\htdocs\Accommodation Finder\index.php                  1      2
+C:\xampp\htdocs\Accommodation Finder\landlord\addPhoto.php      3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\addPhotoX.php     2      0
+C:\xampp\htdocs\Accommodation Finder\landlord\addPlace.php      3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\addPlaceX.php     8      1
+C:\xampp\htdocs\Accommodation Finder\landlord\delete.php        4      1
+C:\xampp\htdocs\Accommodation Finder\landlord\home.php          3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\manage.php        3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\manageX.php       3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\map.php           3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\orderLink.php     3      0
+C:\xampp\htdocs\Accommodation Finder\landlord\orders.php        4      0
+C:\xampp\htdocs\Accommodation Finder\landlord\process.php       5      0
+C:\xampp\htdocs\Accommodation Finder\landlord\view.php          3      1
+C:\xampp\htdocs\Accommodation Finder\login.php                  7      4
+C:\xampp\htdocs\Accommodation Finder\logout.php                 3      0
+...mpp\htdocs\Accommodation Finder\student\fetch_locations.php  4      0
+C:\xampp\htdocs\Accommodation Finder\student\home.php           4      0
+C:\xampp\htdocs\Accommodation Finder\student\makeOrder.php      3      1
+C:\xampp\htdocs\Accommodation Finder\student\manage.php         3      0
+C:\xampp\htdocs\Accommodation Finder\student\manageX.php        3      0
+C:\xampp\htdocs\Accommodation Finder\student\reserve.php        3      1
+C:\xampp\htdocs\Accommodation Finder\warden\addUser.php         4      0
+C:\xampp\htdocs\Accommodation Finder\warden\addUserX.php        2      1
+...ampp\htdocs\Accommodation Finder\warden\fetch_locations.php  4      0
+C:\xampp\htdocs\Accommodation Finder\warden\home.php            4      0
+C:\xampp\htdocs\Accommodation Finder\warden\makeOrder.php       4      1
+C:\xampp\htdocs\Accommodation Finder\warden\manage.php          4      0
+C:\xampp\htdocs\Accommodation Finder\warden\manageX.php         3      0
+C:\xampp\htdocs\Accommodation Finder\warden\reserve.php         3      0
+C:\xampp\htdocs\Accommodation Finder\warden\seeUser.php         8      0
+--------------------------------------------------------------------------------
+A TOTAL OF 140 ERRORS WERE FIXED IN 39 FILES
+--------------------------------------------------------------------------------
+
+Time: 2.51 secs; Memory: 8MB
